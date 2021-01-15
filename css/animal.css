@@ -1,0 +1,18 @@
+body{
+    background-color: wheat;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+.mail-ani{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mail-ani div img{
+    border-style:groove;
+    border-color: rgb(161, 122, 74);
+    border-radius: 10%;
+}

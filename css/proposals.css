@@ -1,0 +1,57 @@
+body{
+   background-color: rgb(211, 210, 180);
+   
+}
+.mails{
+    display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+    
+.mails div{
+    margin:30px;
+    border-style: ridge;
+    background-color: rgb(77, 63, 39);
+    width: 300px;
+    height: 300px;
+    border-radius: 5%;
+}
+
+
+.mails div  p{
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.mails div  img{
+    width: 280px;
+    height: 250px;
+    padding-left:10px;
+    padding-top: 5px;
+    
+}
+ .category{
+     display: flex;
+     justify-content: space-around;
+ }
+
+.category div img{
+width: 120px;
+height: 120px;
+border-radius: 50%;
+
+}
+.category div p{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    
+    text-align: center;
+    background-color: rgb(77, 63, 39);
+    border-radius: 10%;
+    border-color: rgb(77, 63, 39); ;
+}
